@@ -18,6 +18,7 @@
 		1175312626A7686C00D9BEA0 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175312526A7686C00D9BEA0 /* Final_ProjectUITests.swift */; };
 		1175313426A898E000D9BEA0 /* readABookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175313326A898E000D9BEA0 /* readABookViewController.swift */; };
 		2821FB5126A7B1E900885110 /* secondListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821FB5026A7B1E900885110 /* secondListViewController.swift */; };
+		E1D97B3A26A8C2A10042F1A7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D97B3926A8C2A10042F1A7 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1175312726A7686C00D9BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1175313326A898E000D9BEA0 /* readABookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readABookViewController.swift; sourceTree = "<group>"; };
 		2821FB5026A7B1E900885110 /* secondListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondListViewController.swift; sourceTree = "<group>"; };
+		E1D97B3926A8C2A10042F1A7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +110,14 @@
 				1175310026A7686600D9BEA0 /* AppDelegate.swift */,
 				1175310226A7686600D9BEA0 /* SceneDelegate.swift */,
 				1175310426A7686600D9BEA0 /* ViewController.swift */,
-				1175310626A7686600D9BEA0 /* Main.storyboard */,
+				E1D97B3926A8C2A10042F1A7 /* ListViewController.swift */,
 				2821FB5026A7B1E900885110 /* secondListViewController.swift */,
+				1175313326A898E000D9BEA0 /* readABookViewController.swift */,
+				1175310626A7686600D9BEA0 /* Main.storyboard */,
 				1175310C26A7686C00D9BEA0 /* Assets.xcassets */,
 				1175310E26A7686C00D9BEA0 /* LaunchScreen.storyboard */,
 				1175311126A7686C00D9BEA0 /* Info.plist */,
 				1175310926A7686600D9BEA0 /* Final_Project.xcdatamodeld */,
-				1175313326A898E000D9BEA0 /* readABookViewController.swift */,
 			);
 			path = "Final Project";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				1175310B26A7686600D9BEA0 /* Final_Project.xcdatamodeld in Sources */,
 				1175310326A7686600D9BEA0 /* SceneDelegate.swift in Sources */,
 				1175313426A898E000D9BEA0 /* readABookViewController.swift in Sources */,
+				E1D97B3A26A8C2A10042F1A7 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

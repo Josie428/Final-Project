@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="Sac-D4-bn2">
             <objects>
-                <viewController id="OBx-5g-gxB" sceneMemberID="viewController">
+                <viewController id="OBx-5g-gxB" customClass="ListViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PJk-oS-hrk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,6 +120,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="readBook:" destination="OBx-5g-gxB" eventType="touchUpInside" id="OkA-xf-lZB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mz-Jn-F3S">
                                 <rect key="frame" x="33" y="142" width="348" height="75"/>
@@ -214,7 +217,7 @@
         <!--ReadA Book View Controller-->
         <scene sceneID="BIt-dB-5oI">
             <objects>
-                <viewController id="XmJ-WI-UBq" customClass="readABookViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="activities_vc" id="XmJ-WI-UBq" customClass="readABookViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jW9-zI-AnT" customClass="read">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
