@@ -16,6 +16,7 @@
 		1175311026A7686C00D9BEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1175310E26A7686C00D9BEA0 /* LaunchScreen.storyboard */; };
 		1175311B26A7686C00D9BEA0 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175311A26A7686C00D9BEA0 /* Final_ProjectTests.swift */; };
 		1175312626A7686C00D9BEA0 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175312526A7686C00D9BEA0 /* Final_ProjectUITests.swift */; };
+		2821FB5126A7B1E900885110 /* secondListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821FB5026A7B1E900885110 /* secondListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1175312126A7686C00D9BEA0 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1175312526A7686C00D9BEA0 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		1175312726A7686C00D9BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2821FB5026A7B1E900885110 /* secondListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				1175310226A7686600D9BEA0 /* SceneDelegate.swift */,
 				1175310426A7686600D9BEA0 /* ViewController.swift */,
 				1175310626A7686600D9BEA0 /* Main.storyboard */,
+				2821FB5026A7B1E900885110 /* secondListViewController.swift */,
 				1175310C26A7686C00D9BEA0 /* Assets.xcassets */,
 				1175310E26A7686C00D9BEA0 /* LaunchScreen.storyboard */,
 				1175311126A7686C00D9BEA0 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				1175310526A7686600D9BEA0 /* ViewController.swift in Sources */,
 				1175310126A7686600D9BEA0 /* AppDelegate.swift in Sources */,
+				2821FB5126A7B1E900885110 /* secondListViewController.swift in Sources */,
 				1175310B26A7686600D9BEA0 /* Final_Project.xcdatamodeld in Sources */,
 				1175310326A7686600D9BEA0 /* SceneDelegate.swift in Sources */,
 			);
